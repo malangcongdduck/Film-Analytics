@@ -4,6 +4,7 @@
 ### date: 2021.01.20 ~ 
 ### collaborator: @mintai09 </br>
 🕋 Using Selenium from Jupyter Lab
+🕋 Using "searchWeeklyBoxOfficeList" Open API from korea film council
 
 <p>
   <em>
