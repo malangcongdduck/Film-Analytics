@@ -258,4 +258,4 @@ result = cv2.addWeighted(img2, a,icon, b, 0)
 cv2.imshow('dst',result)
 cv2.waitKey(0)
 
-cv2.destroyAllWindows()
+cv2.imwrite('data/result.jpg',result)
