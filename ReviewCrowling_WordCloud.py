@@ -76,7 +76,10 @@ for i in list2_p:
     #가져온 a태그 리스트에서 text만 perfomer에 저장
     perfomer.append(i.get_text())
 
-summary_title=driver.find_element_by_xpath('//*[@class="h_tx_story"]').text #줄거리 제목
+try:
+    summary_title=driver.find_element_by_xpath('//*[@class="h_tx_story"]').text #줄거리 제목
+except:
+    pass
 summary=driver.find_element_by_xpath('//*[@class="con_tx"]').text #줄거리
 
 '''
